@@ -1,0 +1,120 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+
+img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-top: 20px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0rem 2rem 2rem 0rem rgba(0,0,0,0.2);
+}
+
+
+
+.title{
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 15px;
+}
+.activity-container, .joke-container, .quote-container{
+   width: 300px;
+   height: 350px;
+   margin-right:auto;
+   margin-left:auto; 
+   border: 1px solid black;
+   margin-bottom: 5rem;
+   line-height: 30px;
+   background-color:rgb(207, 245, 245);
+   box-shadow: 0rem 1rem 1rem 0rem rgba(0,0,0,0.2);
+   
+   
+}
+#btn-1, #btn-2, #btn-3, #btn-4{
+    margin-top: 10px;
+    text-align: center;
+    margin: auto;
+
+}
+button{
+    width: 125px;
+    display: flex;
+    align-items: center;
+    height: 20px;
+    border:none;
+    font-size: 14px;
+    background-color:white; 
+    box-shadow: 0rem 5px 5px 0rem rgba(0,0,0,0.2);
+}
+button:hover{
+    background-color:dodgerblue;
+   
+}
+.bored{
+    width: 200px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+   
+}
+#btn-2-1{
+    width:300px;
+}
+
+.container{
+    display: flex;  
+    margin-top: 5%;
+   
+}
+body{
+    width:100%;
+    
+    
+}
+.quote-container button{
+    width: 80px;
+}
+.joke-container button{
+    width: 110px;
+}
+.footer-class{
+    text-align: center;
+    margin-top:auto;
+    margin-bottom: auto;
+    height: 10vh;
+    background-color:rgb(207, 245, 245);
+    line-height: 30px;
+
+}
+.container-title{
+    margin-top: 20px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    
+}
+.i,.b,.e{
+    color:blue;
+    
+}
+.abc, .r,.d{
+    color: red;
+}
+.m,.bcd{
+    color: yellow;
+}
+.o{
+    color: green;
+}
+.bcd{
+    font-size: 100px;
+    transform:rotateZ(15deg);
+    
+}

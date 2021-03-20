@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"   integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="   crossorigin="anonymous"></script>
+     
+    <title>Document</title>
+</head>
+<body>
+    <div class="container-title" data-tilt>
+        <h1 class="i">I</h1>
+        <h1 class="abc">'</h1>
+        <h1 class="m">M</h1>
+        <h1>&nbsp</h1>
+        <h1>&nbsp</h1>
+        <h1 class="b">B</h1>
+        <h1 class="o">O</h1>
+        <h1 class="r">R</h1>
+        <h1 class="e">E</h1>
+        <h1 class="d">D</h1>
+        <h1 class="bcd">!</h1>
+
+    </div>
+    <img class="bored"src="bored.gif" alt="being bored" data-tilt>
+    <div class="container">
+    <div class="activity-container" data-tilt>
+        <h2 class="title">Find Me A Random Activity</h2>
+        <button id="btn-1">Random Activity</button>
+        <h3>Activity: </h3>
+        <p class="activity"></p>
+        <h3># of Participants: </h3>
+        <p class="participants"></p>
+        <h3>Type of Activity: </h3>
+        <p class="type"></p>
+    </div>
+    <div class="joke-container" data-tilt id="jokes">
+        <h2 class="title">Tell Me A Joke</h2>
+        <button id="btn-2">Generate Joke</button>
+        <h3>Setup:</h3>
+        <p class="setup"></p>
+        <h3>Punchline:</h3>
+        <p class="punchline"></p>
+      
+    </div>
+    <div class="quote-container" data-tilt id="food">
+        <h2 class="title">Random Inspirational Quote</h2>
+        <button id="btn-3">Get Quote</button>
+        <h3>Quote:</h3>
+        <em><p class="content"></p></em>
+        <h3>Author:</h3>
+        <p class="author"></p>
+    </div>
+</div>
+<footer>
+    <div class="footer-class">
+        <div class="thanks">
+        <h4>Powered by quoteable api, bored api, official-joke-api, and tilt.js </h4>
+        <h5>api.quotable.io----www.boredapi.com----official-joke-api.appspot.com----https://gijsroge.github.io/tilt.js/</h5>
+    </div>
+    </div>
+</footer>
+    <script src="./node_modules/jquery/src/jquery.js" ></script> 
+    <script src="./node_modules/tilt.js/src/tilt.jquery.js"></script> 
+    <script src="practice.js"></script>
+</body>
+</html>
